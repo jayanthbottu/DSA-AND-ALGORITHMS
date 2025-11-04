@@ -1,4 +1,4 @@
-##Maximum Subarray:
+    #Maximum Subarray:
 
 ```
 nums = [-1,2,3,-6,2,5,-4]
