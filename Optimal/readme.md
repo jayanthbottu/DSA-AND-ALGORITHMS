@@ -46,4 +46,19 @@ print(matrix[:,::-1])
 ```
 
 
+**Merge two sorted arrays**
+```
+a1 = [1, 3, 5, 7]
+a2 = [2, 4, 6]
+i = 0
+while a2:
+    if i < len(a1) and a2[0] < a1[i]:
+        a1.insert(i, a2.pop(0))
+    else:
+        i += 1
+print(a1)
+```
+
+
+
 
